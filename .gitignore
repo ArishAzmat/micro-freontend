@@ -1,0 +1,15 @@
+# Node modules
+/app1/node_modules
+/app2/node_modules
+/solid-App/node_modules
+/store/node_modules
+
+# package lock
+/app1/package-lock.json
+/app2/package-lock.json
+/solid-App/package-lock.json
+/store/package-lock.json
+
+# builds
+/app1/dist
+/app2/dist
