@@ -8,7 +8,8 @@ I had implemented redux as a independent application for all micro-frontends.
 You can refer to the Module Federation Plugin in the webpack.config.js file.
 where ```new ModuleFederationPlugin``` takes first object which is used to expose component from local frontend, and second object uses the remotes object to import other micro-frontend's exposed components.
 
-``` new ModuleFederationPlugin({
+```
+new ModuleFederationPlugin({
       name: "app1",
       filename: "remoteEntry.js",
       exposes: {
